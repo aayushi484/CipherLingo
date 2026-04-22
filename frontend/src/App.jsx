@@ -7,7 +7,7 @@ export default function App() {
   const [mode, setMode] = useState('encrypt');
   const [error, setError] = useState(null);
 
-  const API_URL = 'http://localhost:8080';
+  const API_URL = 'http://localhost:8000';
 
   const generateKeys = async () => {
     try {
